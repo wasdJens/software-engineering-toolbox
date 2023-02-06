@@ -1,4 +1,4 @@
-# frontend-development-toolbox
+# Software Engineering Toolbox
 
 Welcome to this technical guide for frontend development. I call it toolbox because like in traditional craftmanship you can rely on these tools to create wonderful new things. 
 
