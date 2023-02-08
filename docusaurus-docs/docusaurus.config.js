@@ -65,9 +65,15 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'software-engineering/intro',
             position: 'left',
-            label: 'Toolbox',
+            label: 'Software Engineering',
+          },
+          {
+            type: 'doc',
+            docId: 'architecture/intro',
+            position: 'left',
+            label: 'Architecture',
           },
         ],
       },
@@ -78,8 +84,12 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Software Engineering Toolbox',
-                to: '/docs/intro',
+                label: 'Software Engineering',
+                to: '/docs/software-engineering/intro',
+              },
+              {
+                label: 'Architecture',
+                to: '/docs/architecture/intro',
               },
             ],
           },

@@ -15,7 +15,7 @@ const FeatureList = [
     title: 'Toolbox',
     description: (
       <>
-        Like in traditional craftmanship we want to provide a toolbox where you as software engineer can choose from to achieve your goals and create wonderful new things.
+        Like in traditional craftmanship we want to provide a toolbox where you as a software engineer can choose from to achieve your goals and create wonderful new things.
       </>
     ),
   },
