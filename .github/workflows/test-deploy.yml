@@ -9,6 +9,9 @@ jobs:
   test-deploy:
     name: Test deployment
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: docusaurus-docs
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
@@ -17,8 +20,6 @@ jobs:
           cache: npm
 
       - name: Install dependencies
-        working-directory: docusaurus-docs
         run: npm ci
       - name: Test build website
-        working-directory: docusaurus-docs
         run: npm build
