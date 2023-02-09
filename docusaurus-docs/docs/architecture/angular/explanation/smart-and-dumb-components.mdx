@@ -3,7 +3,43 @@
 ## Background
 The reason for the smart and dumb component approach is because in modern web applications user interfaces and interactions are getting more complex. The user interface looks the same to the user but is displayed with different kinds of data (e.g. filters or a different context but with the same view).
 
-> 🖥️ Sample HTML Dashboard to illustrate the problem: Open the `smart-and-dumb-components.html` page inside the `/assets` folder in your browser.
+<div style={{display: 'flex', flexDirection: 'column'}}>
+  <div style={{backgroundColor: 'yellow', height: '50px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '8px'}}>
+    <b>PlanB. Dashboard</b>
+    <div>Jens Reiner</div>
+  </div>
+  <div style={{display: 'flex', flexDirection: 'row', gap: '25px', height: '250px'}}>
+    <div style={{backgroundColor: 'coral', padding: '8px'}}>
+      <ul style={{listStyle: 'square'}}>
+        <li>Home</li>
+        <li>Settings</li>
+        <li>Administration</li>
+      </ul>
+    </div>
+    <div style={{backgroundColor: 'red', flexGrow: 1, display: 'flex', flexDirection: 'column', padding: '8px'}}>
+      <h2>Machine Park</h2>
+      <table style={{border: '3px solid'}}>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Active</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Summit</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>Frontera</td>
+            <td>No</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
 
 **Given the sample provided above:** 
 In a typical software product I am logged in with my current user. Depending on my role I may have different permissions then others. For example I may be able to see the `Administration` in the navigation or I dont. But this does not change how the navigation is displayed to me as a user. The same visual styles are applied but I have less information visible for me.

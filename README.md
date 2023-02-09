@@ -1,5 +1,7 @@
-# Software Engineering Toolbox
+# Software Engineering Toolbox ![Website](https://github.com/wasdJens/software-engineering-toolbox/actions/workflows/pages/pages-build-deployment/badge.svg)
 
-Welcome to this technical guide for frontend development. I call it toolbox because like in traditional craftmanship you can rely on these tools to create wonderful new things. 
+Welcome to this technical guide for software enginerring. I call it `toolbox` because like in traditional craftmanship you can rely on these tools to create wonderful new things.
 
-This repo is currently work in progress and in its early stages. If you have any feedback or questions feel free to create an issue or contribute :).
+You can read the full guide here [Software Engineering Toolbox](https://wasdjens.github.io/software-engineering-toolbox/).
+
+The page itself is currenlty work in progress.
