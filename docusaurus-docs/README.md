@@ -1,41 +1,21 @@
-# Website
+# Docusaurus Docs
+This folder includes the source code for building the static site which is hosted at github. It uses [Docusaurus 2](https://docusaurus.io/) under the hook to create a modern static website generator.
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+## Development
+For development purposes you can run the project using the following commands:
 
-### Installation
-
+> Installation
 ```
-$ yarn
+npm i
 ```
 
-### Local Development
-
+> Local Development
 ```
-$ yarn start
+npm start
 ```
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-### Build
+## Build & Deployment
 
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+The site gets automatically build on every pull request which targets the master branch. Once merged the website will get deployed.
