@@ -1,0 +1,113 @@
+---
+sidebar_position: 6
+---
+
+# Erweiterte Konzepte
+
+Angenommen Sie möchten aus dem folgenden Objekt die Properties `online` und `participants` in zwei Variablen schreiben
+
+```js
+const course = {
+  name: "Web Programming",
+  lecturer: "Jens Reiner",
+  location: "Heidenheim an der Brenz",
+  online: false,
+  participants: 25,
+};
+```
+
+Die einfachste Lösung:
+```js
+const aOnline = course.online;
+const bParticipants = course.participants;
+console.log(aOnline, bParticipants);
+```
+
+Die ersten zwei Elemente in eine Variable und die restlichen Elemente in eine andere Variable
+
+```js
+const longList = [10,20,30,40,50,60,70,80,90,100];
+```
+
+Eine einfache Lösung nutzt eine Schleife
+
+```js
+const longList = [10,20,30,40,50,60,70,80,90,100];
+
+let first = longList[0];
+let second = longList[1];
+const other = [];
+// We ignore the first two elements
+for (let i = 2; i < longList.length; i++) {
+  other.push(longList[i]);
+}
+console.log(first, second, other);
+```
+
+## Destrucuring Assignment
+
+Javascript bietet aber eine spezielle Syntax um Daten aus Arrays oder Objekten zu extrahieren: `Destrucuring Assignment`
+
+```js
+const list = [10, 20, 30, 40];
+
+const [a, b] = list;
+console.log(a); // 10
+console.log(b); // 20
+```
+
+```js
+const course = {
+  name: "Web Programming",
+  lecturer: "Jens Reiner",
+  location: "Heidenheim an der Brenz",
+  online: false,
+  participants: 25,
+};
+
+const { online } = course;
+console.log(online); // false
+```
+
+## Spread Syntax (...)
+
+- Hintergrund: Alle Elemente aus einem Array oder Objekt müssen in einer Art Liste übergeben werden
+- Bspw: Sie möchten drei Zahlen aus einem Array an eine Funktion übergeben
+
+```js
+const numbers = [2,4,8];
+function sum(x,y,z) {
+    return x + y + z;
+}
+console.log(sum(...numbers)); // 14
+```
+
+- Mit dem `spread operator` `...` können auch komplexe Operationen wie das einfügen von Array Elementen in ein bestehendes Array an einer gegeben sidebar_position
+
+```js
+// Source: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax#spread_in_array_literals
+let parts = ['shoulders', 'knees'];
+let lyrics = ['head', ...parts, 'and', 'toes'];
+console.log(lyrics); // Head, shoulders, knees, and, toes
+```
+
+- Der `spread operator` kann auch zwei Objekte mergen
+
+```js
+let obj1 = { first: 'Hallo'};
+let obj2 = { second: 'World'};
+
+let mergedObj = {...obj1, ...obj2};
+console.log(mergedObj); // Object { first: "Hallo", second: "World" }
+```
+
+## Rest Parameters (...)
+- Nicht zu verwechseln mit REST Architektur
+- Erlaubt es Funktionen eine unbestimmte Anzahl an Paramter (oder Argumenten) übergeben zu bekommen als Array (Varidic Functions)
+
+```js
+function sum2(...numbers) {
+    return numbers.reduce((a, b) => a + b);
+}
+console.log(sum2(2,4,8)); // 14
+```

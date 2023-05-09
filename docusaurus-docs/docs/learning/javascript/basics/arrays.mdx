@@ -1,0 +1,155 @@
+---
+sidebar_position: 5
+---
+
+# Arrays
+
+## Lernziele
+
+- Arrays definieren
+- Built-In Array Methoden kennenlernen
+- Callback Funktionen anwenden
+
+## Weiterführende Links
+
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#instance_methods
+
+## Grundlagen
+
+- Arrays in Javascript werden mit `[ ]` deklariert
+- Arrays bieten gegenüber Objekten eine geordnete Struktur der Daten mit der Möglichkeit an beliebiger Stelle Daten zu modifizieren
+
+```js
+const cars = ['Mercedes', 'Audi', 'BMW', 'Volkswagen'];
+```
+
+- Im Hintergrund sind Arrays (Ähnlich wie Funktionen) auch Javascript Objekte
+- Arrays besitzen Methoden für das modifizieren und "durchlaufen" ihrer Inhalte
+- Arrays sind nicht typisiert und haben keine feste Größe
+
+```js
+const randomArray = ['Hallo Welt', 25, {name: 'Jens', age: '25'}, false];
+console.log(randomArray);
+```
+
+- Array Elemente können mit dem `property` Selektor ausgewählt werden
+- Arrays haben immer einen `integer` index
+
+```js
+const cars = ['Mercedes', 'Audi', 'BMW', 'Volkswagen'];
+console.log(cars[2]) // BMW
+console.log(cars['length']) // 4
+```
+
+## Pop / Push & Shift & Unshift
+
+- Element an das Ende vom Array hinzufügen `push`
+- Letztes Element entfernen `pop`
+- Erstes Element entfernen und zurückgeben `shift`
+- Element an den Anfang vom Array hinzufügen `unshift`
+
+```js
+const cars = ['Mercedes'];
+cars.push('Audi');
+console.log(cars); // ['Mercedes', 'Audi']
+```
+
+```js
+const cars = ['Mercedes', 'Audi'];
+cars.pop();
+console.log(cars); // ['Mercedes']
+```
+
+```js
+const cars = ['Mercedes', 'Audi', 'BMW', 'Volkswagen'];
+const car = cars.shift();
+console.log(car) // Mercedes;
+console..log(cars.length) // 3
+```
+
+```js
+const cars = ['Mercedes'];
+cars.unshift('Audi');
+console.log(cars); // Array ['Audi', 'Mercedes']
+```
+
+## Loops on Arrays
+
+```js
+const cars = ['Mercedes', 'Audi', 'BMW', 'Volkswagen'];
+for (let i = 0; i <= cars.length; i++) {
+  console.log(cars[i]); // Mercedes, Audi, BMW, Volkswagen
+}
+```
+
+```js
+const cars = ['Mercedes', 'Audi', 'BMW', 'Volkswagen'];
+for (let car of cars) {
+  console.log(car); // Mercedes, Audi, BMW, Volkswagen
+}
+```
+
+```js
+const cars = ['Mercedes', 'Audi', 'BMW', 'Volkswagen'];
+cars.forEach((car) => {
+  console.log(car); // Mercedes, Audi, BMW, Volkswagen
+});
+```
+
+## Array Methoden
+
+| Methode | Beschreibung | Optional |
+| :---: | --- | --- |
+| `concat` | Fügt zwei Arrays zusammen | - |
+| `slice` | Erstellt eine Kopie | Von Start bis End Index |
+| `splice` | Entfernt ein Element | Von Start bis End, Ersetzt mit einem anderen element |
+| `reverse` | Dreht den Inhalt um | - |
+| `sort` | Sortiert das Array anhand einer übergeben Sortierfunktion | - |
+| `indexOf` | Sucht und gibt den Index von einem Element zurück | - |
+| `join` | Gibt einen String zurück mit allen Array Element | Seperator - Default alle strings mit , getrennt |
+| `includes` | Überprüft ob ein übergebener Wert existiert im Array | - |
+
+
+- Es gibt Array Methoden, welche auf jedes Element eine `Callback Funktion` anwenden
+- Die `Callback Funktion` kann dabei selbst definiert werden
+- Diese Art von Funktionen nennt man auch `Higher-Order Functions`
+
+| Methode | Beschreibung | Rückgabe |
+| :---: | --- | --- |
+| `map` | Wendet eine Callback Funktion auf jedes Element an | Alle Elemente werden zurückgegeben |
+| `filter` | Wendet eine Callback Funktion auf jedes Element an und gibt nur die Elemente zurück, welche `true` für die Callback Funktion liefern | - |
+| `every` | Gibt `true` zurück wenn die Callback Funktion für alle Elemente `true` ist | - |
+| `some` | Gibt `true` zurück wenn die Callback Funktion für mindestens ein Element `true` ist | - |
+
+```js
+const roles = ['create', 'read', 'update', 'delete'];
+const mappedRoles = roles.map((role) => role.toUpperCase());
+console.log(mappedRoles); // Array(4) [ "CREATE", "READ", "UPDATE", "DELETE" ]
+```
+
+```js
+const cars = ['Mercedes', 'Audi', 'BMW', 'Volkswagen', 'Porsche'];
+const vwGroup = cars.filter((car) => car === 'Audi' || car === 'Volkswagen' || car === 'Porsche');
+console.log(vwGroup); // Array(3) [ "Audi", "Volkswagen", "Porsche" ]
+```
+
+```js
+const numbers = [1, 2, '3', 4, '5'];
+const onlyNumbers = numbers.every((value) => typeof value === 'number');
+console.log(onlyNumbers); // false
+```
+
+```js
+const cars = ['Mercedes', 'Audi', 'BMW', 'Volkswagen', 'Porsche'];
+const hasAudi = cars.some((car) => car === 'Audi');
+console.log(hasAudi); // true
+```
+
+## Übung
+
+- Definieren Sie sich ein beliebiges Array
+- Verwenden Sie eine der vorgestellten Funktionen auf ihrem Array
+- Verwenden Sie eine Callback Funktion, um ihr Array zu modifizieren
+- Finden Sie eine Array Methode, welche alle Zahlen in einem Array summiert und ein Ergebnis zurückliefert
+- Alternativ: Wie würde eine Mögliche Implementierung allgemein aussehen?
