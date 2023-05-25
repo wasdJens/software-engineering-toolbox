@@ -157,6 +157,8 @@ Coding conventions are important as your architecture and should be treated as s
 
 Coding conventions are important to ensure that the code base is maintainable and that the code is readable by all team members. Coding conventions should be treated as a living document and should be maintained over time. It is important that the whole team agrees on the coding conventions and that they are enforced by tooling. Coding conventions are a good starting point for a new project and should be defined in the beginning of the project.
 
+All software projects should have at least a coding conventions guidelines and in best case a static code analysis tool to check them (e.g. a linter).
+
 ## Personal preferences
 
 The following section describes some combinations of coding conventions that I personally like to use.
