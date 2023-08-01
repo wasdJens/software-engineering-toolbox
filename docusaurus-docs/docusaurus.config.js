@@ -75,6 +75,12 @@ const config = {
             position: 'left',
             label: 'Architecture',
           },
+          {
+            type: 'doc',
+            docId: 'learning/intro',
+            position: 'left',
+            label: 'Learning',
+          },
         ],
       },
       footer: {

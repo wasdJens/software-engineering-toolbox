@@ -1,0 +1,27 @@
+---
+sidebar_position: 1
+---
+
+# Module in Javascript
+
+- Komplexe Anwendungen sind in der Regel in mehrere Bereiche eingeteilt
+- Funktionalitäten werden gruppoert und in einzelnen Dateien gespeichert
+- Ein Modul in Javascript ist eine einzelne Datei - Eine Funktion, eine Klasse oder mehrere Funktionen 
+  - Auch in Kombination
+  - Ein Modul können auch nur Variablen sein
+- Mit Modulen kann Code gruppiert und wiederverwendet werden
+- Module können exportiert und importiert werden
+- Module können Abhängigkeiten zu anderen Modulen haben (-> `dependencies`)
+- Module können als Bausteine verwendet werden, um unterschiedliche Funktionalitäten abzubilden
+- Auf Modul Funktionen oder Variablen kann nur zugegriffen werden, wenn diese vom Modul exportiert werden
+- Javascript nur in `.js` Dateien erfüllt diese Anforderungen nicht, weil der Namespace global ist
+- Erste Implementierungen von Javascript konnten keine Module unterstützen
+
+## ES Modules
+
+- Seit 2015 gibt es einen Standard für Module in Javascript - `ES Modules`
+- Die Notiation für `import` und `export` wurden als Standard in die Javascript Notation aufgenommen
+- Vorherige Modul Implementierungen (`CommonJS`) verwendeten eine Funktion `require` um Module zu importieren
+- Module können in script tags mit `type=module` deklariert werden
+- Module werden nur einmalig ausgeführt
+ - Normale script tags können mehrfach ausgeführt werden
