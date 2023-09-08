@@ -1,6 +1,7 @@
 import React from "react";
 import clsx from "clsx";
 import styles from "./styles.module.css";
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 const AuthorList = [
   {
@@ -16,7 +17,7 @@ function Author({ name, title, image, about }) {
   return (
     <div className={clsx(styles.authorContainer)}>
       <div className={clsx(styles.authorCard)}>
-        <img className={clsx(styles.authorImage)} src={image}></img>
+        <img className={clsx(styles.authorImage)} src={useBaseUrl(image)}></img>
         <div className={clsx(styles.authorAbout)}>
           <h3>
             {name}
