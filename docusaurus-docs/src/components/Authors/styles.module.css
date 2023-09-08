@@ -1,0 +1,41 @@
+.authors {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.title {
+  padding-bottom: 5rem;
+}
+
+.authorContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.authorCard {
+  display: flex;
+  flex-direction: row;
+}
+
+.authorImage {
+  width: 30%;
+  height: 100%;
+  border-radius: 50%;
+  border-color: var(--ifm-color-primary);
+  border: 2px solid;
+}
+
+.authorAbout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 4rem;
+}
+
+.authorSubtitle {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--ifm-color-primary);
+}

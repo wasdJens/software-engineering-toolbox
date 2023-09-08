@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Software Engineering Toolbox',
-  tagline: 'Everything about software engineering',
+  tagline: 'A personal collection of software engineering knowledge',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
