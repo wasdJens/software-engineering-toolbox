@@ -38,7 +38,7 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        blog: false,
+        blog: {},
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
@@ -81,6 +81,11 @@ const config = {
             position: 'left',
             label: 'Learning',
           },
+          {
+            to: 'blog',
+            label: 'Blog',
+            position: 'left'
+          }
         ],
       },
       footer: {
