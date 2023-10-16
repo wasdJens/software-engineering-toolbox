@@ -7,7 +7,7 @@ const AuthorList = [
   {
     name: "Jens Reiner",
     title: "Solution Expert - PlanB. GmbH",
-    image: "img/authors/jens.jpg",
+    image: "/img/authors/jens.jpg",
     about:
       "Five years of experience in creating modern software solutions. Passionate about software architecture, requirements engineering and frontend development.",
   },
