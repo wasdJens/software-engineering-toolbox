@@ -1,0 +1,34 @@
+# About Anti Corruption Layer
+
+## Background
+The reason for the anti corruption layer approach in frontend development is to create an abstraction between API requests and the internal data model that can be used.
+For example you have no design choice about the API requests and depend on another team to provide you with the data you need. 
+This can lead to a situation where you have to change your internal data model because the API changed. 
+Depending on how often the API makes changes it can also happen that you need to update multiple components.
+This can be avoided by creating an anti corruption layer that transforms the data from the API to your internal data model.
+It provides you with the option to have your own data model which you can use in your frontend application. 
+It also makes it easier to combine two or more API requests into one data model.
+When it comes to API data model changes you simply need to update a single file where you map the API to your own data model instead of updating each component on its own.
+
+## Transformation Service
+The integration of an anti corruption layer for an angular application is done by creating a new service that lives between your API requests and transforming the data to your own data model.
+When using the angular http client you can pipe the http response and pass it to the transformation service.
+In the beginning you can use a single service for all transformations. 
+If you notice that you have a lot of different APIs you consume it makes sense to split into multiple services.
+
+Many teams often prefer to use the same data model on API and Client side. 
+While this makes working with the data easier it often leads to a lot of maintenance work once the API changes a single field name.
+Also when you are using different programming languages between API and Client side it can be hard to keep the data models in sync.
+It is also often hard to map raw data models to frontend components the user sees.
+Because the user often gets an aggregation of multiple API requests it makes sense to have a data model that is optimized for the frontend.
+The anti corruption layer approach also makes it easier to write integration tests to verify what your API sends is what you expect and you can fully unit test this implementation. 
+
+## Illustrations
+
+**Service structure**
+
+![Anti Corruption Layer Service Structure](/img/angular/Anti_Corruption1.svg)
+
+**Changes made to the API**
+
+![Anti Corruption Layer API Changes](/img/angular/Anti_Corruption2.svg)
