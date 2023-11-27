@@ -41,8 +41,7 @@ const config = {
         blog: {},
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            'https://github.com/wasdJens/software-engineering-toolbox',
+          editUrl: undefined,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -92,16 +91,25 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Ressources',
             items: [
               {
-                label: 'Software Engineering',
+                label: 'Toolbox',
                 to: '/docs/software-engineering/intro',
               },
               {
-                label: 'Architecture',
-                to: '/docs/architecture/intro',
+                label: 'Learning',
+                to: '/docs/learning/intro',
               },
+            ],
+          },
+          {
+            title: 'Personal',
+            items: [
+              {
+                label: 'Blog',
+                to: '/blog',
+              }
             ],
           },
         ],

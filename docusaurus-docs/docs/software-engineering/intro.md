@@ -1,30 +1,21 @@
 ---
 sidebar_position: 1
 displayed_sidebar: seSidebar
+custom_edit_url: null
 ---
 
 # Introduction
-This chapter provides a background why we think software engineering is important. It takes into account definitions found in software engineering lectures and from our personal experience.
 
-The main takeaway from this chapter is that modern product development is often easier, faster and cheaper when certain software engineering techniques are used. You dont start building a house by laying a random brick on the ground. You often start with a plan, a foundation and use certain building techniques to achieve your goal.
+Hi and welcome to my personal collection of software engineering knowledge which I call `Toolbox` and is inspired by traditonal craftsmanships where you have a toolbox with all the tools you need to create something amazing.
 
-## What is Software Engineering?
-What is our understanding of Software Engineering?
+Beside my personal blog and my learning ressources this is the heart of my website. You can use it as a ressource for your own journey in creating amazing digital products or simply as another source of information.
 
-**Engineering discipline** 
-Engineers make things work. They apply theories, methods, and tools where these are appropriate. However, they use them selectively and always try to discover solutions to problems even when there are no applicable theories and methods. Engineers also recognize that they must work within organizational and financial constraints, and they must look for solutions within these constraints. <cite>[1]</cite>
+I try to follow a red line through all of the topics so you can learn step by step or dive deeper into topics that you are interested in. Most of the topics I cover here I have either learned in the last years through my work or by reading other "blogs" and articles on the web as well as books. You will often find credits at the bottom of each page where I link to the original source.
 
-**All aspects of software production**
-Software engineering is not just concerned with the technical processes of software development. It also includes activities such as software project management and the development of tools, methods, and theories to support software development. <cite>[1]</cite>
+## Feedback
+If you have any feedback or want to discuss certain topics feel free to reach out to me via [email](mailto:wasdJens@gmail.com)
 
-## Why Software Engineering?
-Why you should use software engineering - Explained in two key aspects and some personal opinions.
 
-1. More and more, individuals and society rely on advanced software systems. We need to be able to produce reliable and thrustworthy systems economically and quickly. <cite>[1]</cite>
+## Lets get started!
 
-2. It is usually cheaper, in the long run, to use software engineering methods and techniques for professional software systems rather than just write programs as personal programming project. Failure to use software engineering method leads to higher costs for testing, quality assurance, and long-term maintenance. <cite>[1]</cite>
-
-**Software is hard.** Not from a technical perspective but from a product vision that you want to deliver. There are thousands of tools, methods and principles that you can choose from. There is no right or wrong way - We often learn from our experience what we want to improve or change in the future.
-
-### References 
-[1]: Taken from the Book [Software Engineering](https://software-engineering-book.com/) by Ian Sommerville ISBN: 978-1-292-09613-1
+With docusaurus (Which I use to power this website) you can easily jump to the next topic by clicking on the `Next` button below. We start with a simple definition what even is Software Engineering.

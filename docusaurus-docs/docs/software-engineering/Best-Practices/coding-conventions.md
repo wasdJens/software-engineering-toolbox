@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-displayed_sidebar: seSidebar
+custom_edit_url: null
 ---
 
 # Coding Conventions

@@ -1,6 +1,6 @@
 ---
-sidebar_position: 3
-displayed_sidebar: seSidebar
+sidebar_position: 1
+custom_edit_url: null
 ---
 
 # Working with Git
