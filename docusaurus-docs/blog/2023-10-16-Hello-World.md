@@ -3,7 +3,7 @@ title: Hello World 👋
 description: Introduction to the website
 authors: jreiner
 tags: [hello, background]
-date: 2021-10-16T16:35
+date: 2023-10-16T16:35
 ---
 
 A small background on why this site exists and what it is for.
