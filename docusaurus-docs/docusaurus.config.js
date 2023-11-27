@@ -1,8 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require('prism-react-renderer').themes.github;
+const darkCodeTheme = require('prism-react-renderer/').themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -67,20 +67,20 @@ const config = {
             type: 'doc',
             docId: 'software-engineering/intro',
             position: 'left',
-            label: 'Software Engineering',
+            label: 'Toolbox',
           },
           {
             type: 'doc',
-            docId: 'architecture/intro',
-            position: 'left',
-            label: 'Architecture',
-          },
-          {
-            type: 'doc',
-            docId: 'learning/intro',
+            docId: 'Learning/intro',
             position: 'left',
             label: 'Learning',
           },
+          // {
+          //   type: 'doc',
+          //   docId: 'learning/intro',
+          //   position: 'left',
+          //   label: 'Learning',
+          // },
           {
             to: 'blog',
             label: 'Blog',

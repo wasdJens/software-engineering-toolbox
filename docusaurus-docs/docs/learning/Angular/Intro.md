@@ -1,4 +1,8 @@
-# Angular Architecture
+---
+sidebar_position: 1
+---
+
+# Getting Started
 The following technical documentation describes how to build angular frontend applications . It includes a set of best practices and guidelines you can follow. It is inspired by the work I have done for PlanB GmbH and the knowledge I have learned over the past 5 years.
 
 In order to structure our documentation we are using the [Diátaxis Framework](https://diataxis.fr/)
