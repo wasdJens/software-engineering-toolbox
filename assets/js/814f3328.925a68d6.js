@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus_docs=self.webpackChunkdocusaurus_docs||[]).push([[2535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Hello World \ud83d\udc4b","permalink":"/software-engineering-toolbox/blog/2023/10/16/Hello-World"}]}')}}]);
