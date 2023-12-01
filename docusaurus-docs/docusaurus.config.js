@@ -70,16 +70,10 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'Learning/intro',
+            docId: 'learning/intro',
             position: 'left',
             label: 'Learning',
           },
-          // {
-          //   type: 'doc',
-          //   docId: 'learning/intro',
-          //   position: 'left',
-          //   label: 'Learning',
-          // },
           {
             to: 'blog',
             label: 'Blog',
@@ -99,7 +93,7 @@ const config = {
               },
               {
                 label: 'Learning',
-                to: '/docs/Learning/intro',
+                to: '/docs/learning/intro',
               },
             ],
           },
