@@ -99,7 +99,7 @@ const config = {
               },
               {
                 label: 'Learning',
-                to: '/docs/learning/intro',
+                to: '/docs/Learning/intro',
               },
             ],
           },
