@@ -43,7 +43,7 @@ export default function Authors() {
             <div className={clsx(styles.authorCard)}>
               <img
                 className={clsx(styles.authorImage)}
-                src={useBaseUrl("/img/authors/jens.jpg")}
+                src={useBaseUrl("/static/img/authors/jens.jpg")}
               ></img>
               <div className={clsx(styles.authorAbout)}>
                 <h3>
