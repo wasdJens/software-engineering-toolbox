@@ -18,4 +18,4 @@ If you have any feedback or want to discuss certain topics feel free to reach ou
 
 ## Lets get started!
 
-With docusaurus (Which I use to power this website) you can easily jump to the next topic by clicking on the `Next` button below. We start with a simple definition what even is Software Engineering.
+With docusaurus (Which I use to power this website) you can easily jump to the next topic by clicking on the `Next` button below. We start with a simple introduction to what even is Software Engineering.
