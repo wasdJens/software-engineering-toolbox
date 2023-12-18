@@ -4,6 +4,22 @@
 const lightCodeTheme = require('prism-react-renderer').themes.github;
 const darkCodeTheme = require('prism-react-renderer/').themes.dracula;
 
+const fs = require('fs');
+const path = require('path');
+
+// Function to read package.json and get version
+function getVersion() {
+  const packagePath = path.join(__dirname, 'package.json');
+
+  try {
+    const packageJson = JSON.parse(fs.readFileSync(packagePath, 'utf8'));
+    return packageJson.version;
+  } catch (err) {
+    console.error('Error reading the package.json file:', err);
+    return null;
+  }
+}
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Software Engineering Toolbox',
@@ -35,9 +51,8 @@ const config = {
 
   presets: [
     [
-      'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+      '@docusaurus/preset-classic',
+      {
         blog: {},
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
@@ -46,20 +61,43 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-      }),
+        pages: {
+          path: 'src/pages',
+          routeBasePath: '',
+          include: ['**/*.{js,jsx,ts,tsx,md,mdx}'],
+          exclude: [
+            '**/_*.{js,jsx,ts,tsx,md,mdx}',
+            '**/_*/**',
+            '**/*.test.{js,jsx,ts,tsx}',
+            '**/__tests__/**',
+          ],
+          mdxPageComponent: '@theme/MDXPage',
+          remarkPlugins: [],
+          rehypePlugins: [],
+          beforeDefaultRemarkPlugins: [],
+          beforeDefaultRehypePlugins: [],
+        }
+      },
     ],
   ],
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      // Replace with your project's social card
+    {
+      announcementBar: {
+        id: 'version',
+        content: `🚧 Under Development  - Version: ${getVersion()}`,
+        backgroundColor: '#FFFF00',
+        textColor: '#091E42',
+        isCloseable: false,
+      },
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'SE Toolbox',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo_fixed.png',
+          height: 42,
+          width: 42,
         },
         items: [
           {
@@ -82,7 +120,13 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
+        logo: {
+          alt: 'My Site Logo',
+          src: 'img/logo_fixed.png',
+          width: 150,
+          height: 150,
+        },
         links: [
           {
             title: 'Ressources',
@@ -106,14 +150,23 @@ const config = {
               }
             ],
           },
+          {
+            title: 'About',
+            items: [
+              {
+                label: 'Imprint',
+                to: '/imprint',
+              }
+            ],
+          },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Jens Reiner Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Jens Reiner Built with Docusaurus 🦖`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-    }),
+    },
 };
 
 module.exports = config;

@@ -7,8 +7,8 @@ const FeatureList = [
     title: "Philosophy",
     description: (
       <>
-        The software engineering toolbox is a project we have created to share
-        commonly used software engineerings principles and architectures. It is also a space where we can share our best practices and approaches to create high quality software.
+        The software engineering toolbox is a project I have created to share
+        commonly used software engineerings principles. It can be used as a cookbook on how to create amazing software products.
       </>
     ),
   },
@@ -16,18 +16,20 @@ const FeatureList = [
     title: "Toolbox",
     description: (
       <>
-        Like in traditional craftmanship we want to provide a toolbox where you
+        Like in traditional craftmanship I want to provide a toolbox where you
         as a software engineer can choose from to achieve your goals and create
         wonderful new things.
       </>
     ),
   },
   {
-    title: "Focus",
+    title: "Learning",
     description: (
-      <>At the current stage we focus on the modern web development. This includes frontend development, API design and Cloud Infrastructure</>
-    ),
-  },
+      <>
+        I also share my teaching material here to help you learn more about modern web development.
+      </>
+    )
+  }
 ];
 
 function Feature({ Svg, title, description }) {

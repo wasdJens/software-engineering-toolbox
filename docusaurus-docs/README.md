@@ -1,5 +1,5 @@
 # Docusaurus Docs
-This folder includes the source code for building the static site which is hosted at github. It uses [Docusaurus 2](https://docusaurus.io/) under the hook to create a modern static website generator.
+This folder includes the source code for building the static site which is hosted at github. It uses [Docusaurus 3](https://docusaurus.io/) under the hook to create a modern static website generator.
 
 ## Development
 For development purposes you can run the project using the following commands:
