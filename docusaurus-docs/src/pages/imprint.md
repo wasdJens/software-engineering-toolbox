@@ -10,9 +10,7 @@ Dies ist eine private Seite von
 
 ```
 Jens Reiner
-Christianstraße 28
-89522 Heidenheim a.d. Brenz
-wasdJens@gmail.com
+[wasdJens] [ a t] [ g m a i l] [ d o t] [c o m]
 ```
 
 Keine Werbung oder unerwünschte Anfragen, besonders nicht postalisch.
