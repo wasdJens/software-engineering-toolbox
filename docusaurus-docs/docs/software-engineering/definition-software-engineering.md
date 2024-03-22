@@ -64,12 +64,6 @@ You will often find mixed terms for the actual process of writing software or de
 - Integrating new use cases and extending existing ones to support new business requirements
 - Migration / Integration of other solutions / tools
 
-### What about architects...?
-
-Just no. Architects are often involved in the initial draft of a software product but they design a system which often does not evolve or makes assumptions which are often not true (See requirements chapter problem statement). Something I often observe is that the architecture is designed by assuming a certain level of knowledge inside the team which is often not the case. It also introduces a new layer of complexity because how do you ensure the architecture is followed by everyone? 
-
-Instead stick to software engineering techniques. You will automatically involve certain software architecture principles and can easier adapt to changing requirements and also the need of each team member. Nonetheless software architecture is a crucial part in creating maintainable software but a dedicated role is often not needed or contra productive. Instead create the architecture together with the team and involve everyone in the decision making process (See decision records chapter). 
-
 ## Next up: The blueprint
 
 Now how will we get from software engineering techniques to an actual running software product? What are commonly encountered problems? How to choose the right tools for the right job? This and more will be discussed in the next chapter where we will start by creating a blueprint and lay the foundation on it.
