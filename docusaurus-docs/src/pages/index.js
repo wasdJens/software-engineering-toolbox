@@ -15,7 +15,7 @@ export default function Home() {
       <main>
         <div className={clsx(styles.base)}>
           <section className={clsx(styles.about)}>
-            <img src={require('@site/static/img/authors/jens.jpg').default} />
+            <img src={require('@site/static/img/authors/jens.JPG').default} />
             <div className={clsx(styles.aboutTextContainer)}>
               <h2 className={clsx(styles.aboutCatchphrase)}>
                 <span>Jens Reiner</span> is a specialist for products your
