@@ -79,7 +79,7 @@ export default function Home() {
             <div className={clsx(styles.resurcesCardContainer)}>
               <div className={clsx(styles.resourcesCard)}>
                 <Link to="/blog">
-                  <h3>Personal Blog</h3>
+                  <h3> 📝 Personal Blog</h3>
                 </Link>
 
                 <p>
@@ -92,7 +92,7 @@ export default function Home() {
             <div className={clsx(styles.resurcesCardContainer)}>
               <div className={clsx(styles.resourcesCard)}>
                 <Link to="/docs/software-engineering/intro">
-                  <h3>Software Engineering Toolbox</h3>
+                  <h3> 🧰 Software Engineering Toolbox</h3>
                 </Link>
                 <p>
                   The software engineering toolbox is a project I have created
@@ -110,7 +110,7 @@ export default function Home() {
                   href="https://github.com/wasdJens/dont-panic-web-edition"
                   target="blank"
                 >
-                  <h3>Dont Panic: Web Edition</h3>
+                  <h3> 👨‍🏫 Dont Panic: Web Edition</h3>
                 </a>
                 <p>
                   People often told me I am a good teacher about software

@@ -13,7 +13,7 @@
   height: 2px;
   background-color: var(--ifm-color-primary-lightest);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-  margin: 20px 0;
+  margin: 48px 0;
 }
  
 .about {
@@ -25,6 +25,7 @@
 .about img {
   border-radius: 8px;
   grid-column: span 4;
+  max-height: 500px;
 }
 
 .aboutTextContainer {
@@ -131,4 +132,8 @@ html[data-theme='dark'] .aboutLinks a button {
 html[data-theme='dark'] .aboutLinks a button:hover {
   background-color: var(--ifm-color-primary);
   color: black;
+}
+
+html[data-theme='dark'] .resourcesCard {
+  background-color: rgba(255, 255, 255, 0.1);
 }

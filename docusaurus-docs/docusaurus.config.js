@@ -105,17 +105,17 @@ const config = {
             // If you change the docId also update the announcementbar isSeToolbox function
             docId: 'software-engineering/intro',
             position: 'left',
-            label: 'SE Toolbox',
+            label: '🧰 SE Toolbox',
           },
           {
             type: 'doc',
             docId: 'learning/intro',
             position: 'left',
-            label: 'Learning',
+            label: '💡 Learning',
           },
           {
             to: 'blog',
-            label: 'Blog',
+            label: '📝 Blog',
             position: 'left'
           }
         ],
