@@ -72,7 +72,7 @@ export default function Home() {
                   Lecturer DHBW <span>since 2021</span>
                 </li>
                 <li>
-                  Conclurer GmbHSoftware Developer <span>2018-2020</span>
+                  Conclurer GmbH Software Developer <span>2018-2020</span>
                 </li>
                 <li>
                   Uni Ulm B.Sc Software Engineering <span>2015-2019</span>
