@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: 20
           cache: npm
-          # cache-dependency-path: ./docusaurus-docs/package-lock.json
+          cache-dependency-path: ./docusaurus-docs/package-lock.json
 
       - name: Install dependencies & Build Website
         run: |
