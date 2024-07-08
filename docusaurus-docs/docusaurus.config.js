@@ -22,15 +22,15 @@ function getVersion() {
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Software Engineering Toolbox',
-  tagline: 'A personal collection of software engineering knowledge',
+  title: 'Jens Reiner',
+  tagline: 'My personal website with my blog and my so called SE Toolbox',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-test-site.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/software-engineering-toolbox',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -88,11 +88,11 @@ const config = {
         content: `🚧 Under Development  - Version: ${getVersion()}`,
         backgroundColor: '#FFFF00',
         textColor: '#091E42',
-        isCloseable: false,
+        isCloseable: true,
       },
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'SE Toolbox',
+        title: 'Jens Reiner',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo_fixed.png',
@@ -102,9 +102,10 @@ const config = {
         items: [
           {
             type: 'doc',
+            // If you change the docId also update the announcementbar isSeToolbox function
             docId: 'software-engineering/intro',
             position: 'left',
-            label: 'Toolbox',
+            label: 'SE Toolbox',
           },
           {
             type: 'doc',
@@ -121,18 +122,19 @@ const config = {
       },
       footer: {
         style: 'light',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo_fixed.png',
-          width: 150,
-          height: 150,
-        },
+        // logo: {
+        //   alt: 'My Site Logo',
+        //   src: 'img/logo_fixed.png',
+        //   width: 125,
+        //   height: 125,
+        // },
         links: [
           {
             title: 'Ressources',
             items: [
               {
-                label: 'Toolbox',
+                label: 'SE Toolbox',
+                // If you change the docId also update the announcementbar isSeToolbox function
                 to: '/docs/software-engineering/intro',
               },
               {
