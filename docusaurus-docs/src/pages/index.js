@@ -3,7 +3,7 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import clsx from "clsx";
 import styles from "./index.module.css";
-import JensImageUrl from "@site/static/img/authors/jens.jpg";
+import JensImageUrl from "../../static/img/authors/jens.jpg";
 import Link from "@docusaurus/Link";
 
 export default function Home() {

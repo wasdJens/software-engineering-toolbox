@@ -94,12 +94,12 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Jens Reiner',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo_fixed.png',
-          height: 42,
-          width: 42,
-        },
+        // logo: {
+        //   alt: 'My Site Logo',
+        //   src: 'img/logo_fixed.png',
+        //   height: 42,
+        //   width: 42,
+        // },
         items: [
           {
             type: 'doc',
