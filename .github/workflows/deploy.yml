@@ -13,9 +13,9 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 20
           cache: npm
-          cache-dependency-path: ./docusaurus-docs/package-lock.json
+          # cache-dependency-path: ./docusaurus-docs/package-lock.json
 
       - name: Install dependencies & Build Website
         run: |
