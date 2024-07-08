@@ -25,6 +25,7 @@ const config = {
   title: 'Jens Reiner',
   tagline: 'My personal website with my blog and my so called SE Toolbox',
   favicon: 'img/favicon.ico',
+  staticDirectories: ['static'],
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-test-site.com',
