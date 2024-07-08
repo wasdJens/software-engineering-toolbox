@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>Software Engineering Toolbox Blog</title>
+        <title>Jens Reiner Blog</title>
         <link>https://your-docusaurus-test-site.com/software-engineering-toolbox/blog</link>
-        <description>Software Engineering Toolbox Blog</description>
+        <description>Jens Reiner Blog</description>
         <lastBuildDate>Mon, 27 Nov 2023 17:15:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
@@ -15,11 +15,11 @@
             <pubDate>Mon, 27 Nov 2023 17:15:00 GMT</pubDate>
             <description><![CDATA[Small Update about the recent progress]]></description>
             <content:encoded><![CDATA[<p>Some updates about recent progress and finally getting the motivation to start working on this website.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="new-motivation">New Motivation<a href="https://your-docusaurus-test-site.com/software-engineering-toolbox/blog/2023/11/27/Getting-Started#new-motivation" class="hash-link" aria-label="Direct link to New Motivation" title="Direct link to New Motivation">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="new-motivation">New Motivation<a class="hash-link" aria-label="Direct link to New Motivation" title="Direct link to New Motivation" href="https://your-docusaurus-test-site.com/software-engineering-toolbox/blog/2023/11/27/Getting-Started#new-motivation">​</a></h2>
 <p>In the last weeks I have consumed a lot of content and also started reading the book <code>The Software Engineers Guidebook</code> (ISBN-10: 908338182X) by <code>Gergely Orosz</code> and since then I had so many ideas on how to structure this website and finally getting started working on all the topics I either have written down as notes in my personal obsidian vault or which are floating in my head 😅.</p>
 <p>I also finished my lecture about "Web Programmierung" for this year and have created complete new slides which I want to post here as well under the learning section.</p>
 <p>As you may have noticed I have also renamed the main navigation items of this website to better reflect what I want to achieve.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="goal-for-end-of-2024">Goal for End of 2024<a href="https://your-docusaurus-test-site.com/software-engineering-toolbox/blog/2023/11/27/Getting-Started#goal-for-end-of-2024" class="hash-link" aria-label="Direct link to Goal for End of 2024" title="Direct link to Goal for End of 2024">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="goal-for-end-of-2024">Goal for End of 2024<a class="hash-link" aria-label="Direct link to Goal for End of 2024" title="Direct link to Goal for End of 2024" href="https://your-docusaurus-test-site.com/software-engineering-toolbox/blog/2023/11/27/Getting-Started#goal-for-end-of-2024">​</a></h2>
 <p>By the end of the current year I want to have certain topics finished for the toolbox section (Mainly the requirements engineering and product definition part) and also migrated the lecture slides to markdown content. For the next year I then want to start writing the new angular handbook and release this website to the public (With hopefully my own domain and stuff like that)</p>]]></content:encoded>
             <author>wasdJens@gmail.com (Jens Reiner)</author>
             <category>progress</category>
@@ -33,10 +33,10 @@
             <pubDate>Mon, 16 Oct 2023 16:35:00 GMT</pubDate>
             <description><![CDATA[Introduction to the website]]></description>
             <content:encoded><![CDATA[<p>A small background on why this site exists and what it is for.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why">Why?<a href="https://your-docusaurus-test-site.com/software-engineering-toolbox/blog/2023/10/16/Hello-World#why" class="hash-link" aria-label="Direct link to Why?" title="Direct link to Why?">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why">Why?<a class="hash-link" aria-label="Direct link to Why?" title="Direct link to Why?" href="https://your-docusaurus-test-site.com/software-engineering-toolbox/blog/2023/10/16/Hello-World#why">​</a></h2>
 <p>Over the past years I have learned a lot in terms of creating digital products and the software engineering process. Many of these topics came from public blog posts and articles. During the transition from twitter to X I have learned a valuable lesson: social media platforms can take all of your content with a click of a button and any content is simply gone. This is why I have decided to create this website and write about my experiences and learnings. Because here I have full control about the content and can also decide what to post.</p>
 <p>My goal is to simply have a place where I can write all my thoughts, ideas and more down instead of having everything part of my personal <a href="https://obsidian.md/" target="_blank" rel="noopener noreferrer">obsidian vault</a>. Also a lot of my colleagues often asked me about certain topics so here I can easily share them with the world. I also want to give something back for free because most of my knowledge came from ressource that anyone on the internet can read and learn from.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-you-will-find-here">What you will find here<a href="https://your-docusaurus-test-site.com/software-engineering-toolbox/blog/2023/10/16/Hello-World#what-you-will-find-here" class="hash-link" aria-label="Direct link to What you will find here" title="Direct link to What you will find here">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-you-will-find-here">What you will find here<a class="hash-link" aria-label="Direct link to What you will find here" title="Direct link to What you will find here" href="https://your-docusaurus-test-site.com/software-engineering-toolbox/blog/2023/10/16/Hello-World#what-you-will-find-here">​</a></h2>
 <p>Basically anything that I think is important when it comes to creating software and speciallly software that is tailored for the world wide web. The website itself is built with <a href="https://docusaurus.io/" target="_blank" rel="noopener noreferrer">docusaurus</a> and split into the following sections:</p>
 <ul>
 <li>Software Engineering</li>
@@ -44,15 +44,15 @@
 <li>Learning</li>
 <li>Blog</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="software-engineering">Software Engineering<a href="https://your-docusaurus-test-site.com/software-engineering-toolbox/blog/2023/10/16/Hello-World#software-engineering" class="hash-link" aria-label="Direct link to Software Engineering" title="Direct link to Software Engineering">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="software-engineering">Software Engineering<a class="hash-link" aria-label="Direct link to Software Engineering" title="Direct link to Software Engineering" href="https://your-docusaurus-test-site.com/software-engineering-toolbox/blog/2023/10/16/Hello-World#software-engineering">​</a></h3>
 <p>Is built as documentation and reference for all things related to any software engineering process. This includes thoughts what even software engineering is and how to approach it.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="architecture">Architecture<a href="https://your-docusaurus-test-site.com/software-engineering-toolbox/blog/2023/10/16/Hello-World#architecture" class="hash-link" aria-label="Direct link to Architecture" title="Direct link to Architecture">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="architecture">Architecture<a class="hash-link" aria-label="Direct link to Architecture" title="Direct link to Architecture" href="https://your-docusaurus-test-site.com/software-engineering-toolbox/blog/2023/10/16/Hello-World#architecture">​</a></h3>
 <p>Here I want to document how you can build systems based on a given technology or framework. I try to follow the <a href="https://diataxis.fr/" target="_blank" rel="noopener noreferrer">diàtaxis</a> approach here and at the moment you will find a lot about <a href="https://angular.io/" target="_blank" rel="noopener noreferrer">angular</a>.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="learning">Learning<a href="https://your-docusaurus-test-site.com/software-engineering-toolbox/blog/2023/10/16/Hello-World#learning" class="hash-link" aria-label="Direct link to Learning" title="Direct link to Learning">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="learning">Learning<a class="hash-link" aria-label="Direct link to Learning" title="Direct link to Learning" href="https://your-docusaurus-test-site.com/software-engineering-toolbox/blog/2023/10/16/Hello-World#learning">​</a></h3>
 <p>In the last two years I have teached at the Duale Hochschule Baden Württemberg as lecturer for Web Programming. Many of these ressources were originally created as powerpoint and shared over multiple channels. Since I use the same slides for internal teachings at PlanB. GmbH I wanted to have a place where I can easily share them by providing a single link. Also I hate working with powerpoint and markdown allows me to easier write.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="blog">Blog<a href="https://your-docusaurus-test-site.com/software-engineering-toolbox/blog/2023/10/16/Hello-World#blog" class="hash-link" aria-label="Direct link to Blog" title="Direct link to Blog">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="blog">Blog<a class="hash-link" aria-label="Direct link to Blog" title="Direct link to Blog" href="https://your-docusaurus-test-site.com/software-engineering-toolbox/blog/2023/10/16/Hello-World#blog">​</a></h3>
 <p>The blog is my place where I will randomly write about anything. I try to keep it software related but I can't promise anything 😅. This is also the entry point to maybe special topics that are then part of one of the other sections in much more detail.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-leave-feedback">How to leave feedback<a href="https://your-docusaurus-test-site.com/software-engineering-toolbox/blog/2023/10/16/Hello-World#how-to-leave-feedback" class="hash-link" aria-label="Direct link to How to leave feedback" title="Direct link to How to leave feedback">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-leave-feedback">How to leave feedback<a class="hash-link" aria-label="Direct link to How to leave feedback" title="Direct link to How to leave feedback" href="https://your-docusaurus-test-site.com/software-engineering-toolbox/blog/2023/10/16/Hello-World#how-to-leave-feedback">​</a></h2>
 <p>I love to hear from you and also get ideas where I could improve certain topics. At the moment the best way is to write me an Email (<a href="mailto:jens.reiner@plan-b-gmbh.com" target="_blank" rel="noopener noreferrer">jens.reiner@plan-b-gmbh.com</a>) in the future I am looking to integrate <a href="https://github.com/giscus/giscus" target="_blank" rel="noopener noreferrer">giscus)</a> to allow you to leave comments directly on the website.</p>]]></content:encoded>
             <author>wasdJens@gmail.com (Jens Reiner)</author>
             <category>hello</category>

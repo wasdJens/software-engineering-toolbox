@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus_docs=self.webpackChunkdocusaurus_docs||[]).push([[2849],{2950:s=>{s.exports=JSON.parse('{"label":"info","permalink":"/software-engineering-toolbox/blog/tags/info","allTagsPath":"/software-engineering-toolbox/blog/tags","count":1,"unlisted":false}')}}]);
