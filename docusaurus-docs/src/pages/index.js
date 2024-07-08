@@ -3,7 +3,6 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import clsx from "clsx";
 import styles from "./index.module.css";
-import JensImageUrl from "../../static/img/authors/jens.jpg";
 import Link from "@docusaurus/Link";
 
 export default function Home() {
@@ -16,7 +15,7 @@ export default function Home() {
       <main>
         <div className={clsx(styles.base)}>
           <section className={clsx(styles.about)}>
-            <img src={JensImageUrl} />
+            <img src={require('@site/static/img/authors/jens.jpg').default} />
             <div className={clsx(styles.aboutTextContainer)}>
               <h2 className={clsx(styles.aboutCatchphrase)}>
                 <span>Jens Reiner</span> is a specialist for products your
