@@ -38,6 +38,12 @@ export default function Home() {
                 >
                   <button>🔗 LinkedIn</button>
                 </a>
+                <a
+                  href="https://github.com/wasdJens"
+                  target="blank"
+                >
+                  <button>🐙 Github</button>
+                </a>
               </p>
             </div>
           </section>

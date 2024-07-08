@@ -49,7 +49,10 @@
   font-size: large;
 }
 
-
+.aboutLinks {
+  display: flex;
+  gap: 16px;
+}
 
 .aboutLinks a button {
   padding: 8px 12px;
